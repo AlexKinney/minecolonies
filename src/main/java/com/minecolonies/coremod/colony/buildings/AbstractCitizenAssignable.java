@@ -26,7 +26,7 @@ public abstract class AbstractCitizenAssignable extends AbstractSchematicProvide
     /**
      * List of worker assosiated to the building.
      */
-    private final List<CitizenData> assignedCitizen = new ArrayList();
+    private final List<CitizenData> assignedCitizen = new ArrayList<CitizenData>();
 
     /**
      * Constructor for the abstract class which receives the position and colony.

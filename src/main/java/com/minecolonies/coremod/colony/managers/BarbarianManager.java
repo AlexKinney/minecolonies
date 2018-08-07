@@ -217,6 +217,6 @@ public class BarbarianManager implements IBarbarianManager
             }
         }
 
-        return new ArrayList(horde);
+        return new ArrayList<AbstractEntityBarbarian>(horde);
     }
 }
