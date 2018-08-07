@@ -61,7 +61,7 @@ public class ItemStorage
         this.stack = stack;
         this.shouldIgnoreDamageValue = ignoreDamageValue;
         this.shouldIgnoreNBTValue = shouldIgnoreNBTValue;
-        this.amount = amount;
+        this.amount = ItemStackUtils.getSize(stack);
     }
 
     /**
